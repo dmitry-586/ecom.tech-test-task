@@ -38,7 +38,7 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(function Input(
   const LeftIcon = leftIcon
 
   return (
-    <div className={cn('relative inline-flex flex-col gap-2 pb-5', wrapperCN)}>
+    <div className={cn('relative flex flex-col gap-2 pb-5', wrapperCN)}>
       {label && (
         <label
           htmlFor={inputId}

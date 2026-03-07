@@ -1,4 +1,4 @@
-import type { ApiError } from '@/shared/types/api'
+import type { ApiError } from '@/shared/types'
 import axios, { type AxiosError, type AxiosRequestConfig } from 'axios'
 
 export const apiClient = axios.create({

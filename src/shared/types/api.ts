@@ -4,12 +4,11 @@ export interface ApiError {
   code?: string
 }
 
-export interface ApiResponse<T = unknown> {
-  data: T
-}
-
-export interface AxiosErrorResponse {
-  message: string
-  status?: number
-  data?: unknown
+export interface Product {
+  id: number
+  title: string
+  price: number
+  category: string
+  image: string
+  description: string
 }
