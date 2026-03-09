@@ -1,5 +1,5 @@
 import { api } from '@/shared/lib/api-client'
-import type { Product } from '@/shared/types/api'
+import type { Product } from '@/shared/types'
 
 export const productsService = {
   getProducts: async () => {

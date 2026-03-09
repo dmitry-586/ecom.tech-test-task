@@ -82,7 +82,7 @@ export const Modal = ({
         tabIndex={-1}
         onKeyDown={handleKeyDown}
         className={cn(
-          'bg-background relative w-full max-w-2xl rounded-2xl border border-white/10 p-5 shadow-xl',
+          'bg-background relative w-full max-w-2xl rounded-2xl border border-white/10 p-5 shadow-xl focus:outline-none',
           className,
         )}
       >
